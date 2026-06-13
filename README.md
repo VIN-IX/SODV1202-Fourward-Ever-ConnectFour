@@ -8,7 +8,7 @@ Repository setup and initial object-oriented skeleton.
 
 ## Team
 
-- Team name: `ADD TEAM NAME`
+- Team name: Fourward Ever
 - Member 1: Chinonso Vincent Unegbu - GitHub: VIN-IX
 - Member 2: Yusuf Azeez - GitHub: yusufazeez123499-stack
 
