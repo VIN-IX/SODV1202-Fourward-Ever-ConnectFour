@@ -1,0 +1,28 @@
+# Visual Studio and .NET build output
+.vs/
+bin/
+obj/
+[Bb]uild/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Test results and coverage
+TestResults/
+coverage/
+*.coverage
+
+# NuGet
+packages/
+*.nupkg
+
+# Operating system files
+.DS_Store
+Thumbs.db
