@@ -61,3 +61,7 @@ Connect Four is a two-player strategy game played on a 7-column by 6-row board. 
 - `feat: add initial board model`
 - `feat: add human player class`
 - `fix: prevent moves in full columns`
+
+ ## Team Contribution
+- Chinonso Vincent Unegbu: implemented the main OOP game logic and tested gameplay.
+- Yusuf Azeez: contributed to project documentation, testing notes, and final review.
