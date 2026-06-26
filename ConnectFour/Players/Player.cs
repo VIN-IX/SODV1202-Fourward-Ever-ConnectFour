@@ -1,3 +1,6 @@
+using ConnectFour.Models;
+using ConnectFour.Views;
+
 namespace ConnectFour.Players;
 
 public abstract class Player
@@ -11,5 +14,5 @@ public abstract class Player
         Symbol = symbol;
     }
 
-    public abstract int ChooseColumn();
+    public abstract int ChooseColumn(Board board, ConsoleView view);
 }
