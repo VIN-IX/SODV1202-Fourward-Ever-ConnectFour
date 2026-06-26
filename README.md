@@ -1,67 +1,67 @@
-# SODV1202 Connect Four
+# Fourward Ever - Connect Four
 
-Console-based Connect Four term project for **SODV1202: Object-Oriented Programming**.
+## Project Description
+This project is a console-based Connect Four game built for SODV1202 Object-Oriented Programming. The game allows two human players to take turns dropping pieces into a 7-column by 6-row board.
 
-## Project status
+## Team Name
+Fourward Ever
 
-Repository setup and initial object-oriented skeleton.
+## Team Members
+- Chinonso Vincent Unegbu - GitHub: VIN-IX
+- Yusuf Azeez - GitHub: yusufazeez123499-stack
 
-## Team
+## Game Rules
+- The game uses a 7-column by 6-row board.
+- Two players take turns.
+- Player 1 uses X.
+- Player 2 uses O.
+- Each player chooses a column from 1 to 7.
+- The piece drops to the lowest available row in that column.
+- A player wins by connecting four pieces horizontally, vertically, or diagonally.
+- If the board becomes full and nobody wins, the game ends in a draw.
 
-- Team name: Fourward Ever
-- Member 1: Chinonso Vincent Unegbu - GitHub: VIN-IX
-- Member 2: Yusuf Azeez - GitHub: yusufazeez123499-stack
+## OOP Concepts Used
+- Classes and objects
+- Encapsulation
+- Inheritance
+- Abstraction
+- Polymorphism
+- Method overriding
+- Arrays
+- Input validation
 
-## Project overview
+## Main Classes
+- `Program`: starts the game.
+- `GameController`: controls the main game loop and turn order.
+- `Board`: stores the game grid and checks valid moves, wins, and draws.
+- `Player`: abstract base class for players.
+- `HumanPlayer`: gets column input from the console.
+- `ConsoleView`: displays messages and the board.
 
-Connect Four is a two-player strategy game played on a 7-column by 6-row board. Players take turns selecting a column. A disc falls into the lowest available position in that column. The first player to connect four symbols horizontally, vertically, or diagonally wins.
+## Current Features
+- Two-player console gameplay
+- 7x6 board display
+- Input validation
+- Full-column validation
+- Horizontal win detection
+- Vertical win detection
+- Diagonal win detection
+- Draw detection
+- Restart option after each game
 
-## Planned class structure
-
-- `GameController`: controls the game flow and turn order.
-- `Board`: stores the board and handles disc placement.
-- `Player`: abstract base class for player types.
-- `HumanPlayer`: represents a human player.
-- `ConsoleView`: handles console input and output.
-
-## Current milestones
-
-- [x] Create the repository
-- [x] Add the initial project structure
-- [ ] Complete the board model
-- [ ] Complete player classes
-- [ ] Implement two-player game flow
-- [ ] Add win and draw detection
-- [ ] Add restart functionality
-- [ ] Complete testing and demonstration video
-
-## Task allocation
-
-## Task allocation
+## Task Allocation
 
 | Task | Assigned member | Status |
 |---|---|---|
 | Repository setup and documentation | Chinonso Vincent Unegbu | Complete |
-| Board model and validation | Chinonso Vincent Unegbu | Not started |
-| Player classes | Yusuf Azeez | Not started |
-| Game controller | Both members | Not started |
-| Console view | Yusuf Azeez | Not started |
-| Testing and video | Both members | Not started |
+| Board model and validation | Chinonso Vincent Unegbu | Complete |
+| Player classes | Yusuf Azeez | Complete |
+| Game controller | Both members | Complete |
+| Console view | Yusuf Azeez | Complete |
+| Testing and video | Both members | Complete |
 
-## Running the project
-
-1. Open `ConnectFour.csproj` in Visual Studio.
+## How to Run
+1. Open `ConnectFour.sln` in Visual Studio.
 2. Build the solution.
 3. Run the console application.
-
-## Commit message examples
-
-- `chore: initialize Connect Four solution`
-- `docs: add project overview and task allocation`
-- `feat: add initial board model`
-- `feat: add human player class`
-- `fix: prevent moves in full columns`
-
- ## Team Contribution
-- Chinonso Vincent Unegbu: implemented the main OOP game logic and tested gameplay.
-- Yusuf Azeez: contributed to project documentation, testing notes, and final review.
+4. Follow the console instructions.
